@@ -1,0 +1,1 @@
+package com.example.demo.environmentimport org.springframework.context.annotation.Scopeimport org.springframework.stereotype.Component@Component @Scope()class Proto {}
