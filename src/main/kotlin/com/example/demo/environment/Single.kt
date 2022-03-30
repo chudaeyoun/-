@@ -1,1 +1,0 @@
-package com.example.demo.environmentimport org.springframework.beans.factory.annotation.Autowiredimport org.springframework.context.ApplicationContextimport org.springframework.stereotype.Component@Componentclass Single {    @Autowired    lateinit var proto: Proto    @Autowired    lateinit var applicatoinConext: ApplicationContext}

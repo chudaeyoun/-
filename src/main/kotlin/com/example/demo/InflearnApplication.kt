@@ -10,7 +10,6 @@ import org.springframework.scheduling.annotation.EnableAsync
 
 @EnableAsync
 @SpringBootApplication
-@PropertySource("classpath:/messages_en_US.properties")
 class InflearnApplication
 
 fun main(args: Array<String>) {
