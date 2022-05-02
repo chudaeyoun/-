@@ -1,0 +1,1 @@
+package com.example.demo.properyimport org.springframework.boot.context.properties.ConfigurationPropertiesimport org.springframework.boot.context.properties.ConstructorBinding@ConstructorBinding@ConfigurationProperties("chu")data class CustomProperties(    val name: String,    val age: Int,    val fullName: String)
