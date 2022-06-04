@@ -1,0 +1,1 @@
+package com.example.demo.accountimport javax.persistence.Entityimport javax.persistence.GeneratedValueimport javax.persistence.Id@Entityclass Account(    @Id    @GeneratedValue    val id: Long,    val username: String,    val password: String) {    constructor() : this(        0, "", ""    )}
