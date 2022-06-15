@@ -1,0 +1,1 @@
+package com.example.demo.securityimport org.springframework.stereotype.Controllerimport org.springframework.web.bind.annotation.GetMapping@Controllerclass HomeController {    @GetMapping("/security/hello")    fun hello(): String {        return "hello"    }    @GetMapping("/security/my")    fun my(): String {        return "my"    }}
